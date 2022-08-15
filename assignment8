@@ -1,0 +1,155 @@
+
+-- Test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), 
+--     birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+
+CREATE TABLE employee (
+	id INT NOT NULL, 
+	name VARCHAR(50) NOT NULL,
+	birthday DATE,
+	email VARCHAR(100)
+  
+  );
+
+
+insert into employee (id, first_name, last_name, birthday, email) values (1, 'Jude', 'Quig', '7/30/1994', 'jquig0@creativecommons.org');
+insert into employee (id, first_name, last_name, birthday, email) values (2, 'Melesa', 'Wall', '7/28/1966', 'mwall1@uol.com.br');
+insert into employee (id, first_name, last_name, birthday, email) values (3, 'Suellen', 'Donwell', '8/31/1965', 'sdonwell2@1688.com');
+insert into employee (id, first_name, last_name, birthday, email) values (4, 'Yolande', 'Mauditt', '9/1/1986', 'ymauditt3@cafepress.com');
+insert into employee (id, first_name, last_name, birthday, email) values (5, 'Ursola', 'Benediktsson', '1/24/1990', 'ubenediktsson4@shutterfly.com');
+insert into employee (id, first_name, last_name, birthday, email) values (6, 'Jenilee', 'Rubinsztein', '9/4/1991', 'jrubinsztein5@last.fm');
+insert into employee (id, first_name, last_name, birthday, email) values (7, 'Anjela', 'Labell', '3/1/2002', 'alabell6@furl.net');
+insert into employee (id, first_name, last_name, birthday, email) values (8, 'Trude', 'Nolte', '6/12/1954', 'tnolte7@xrea.com');
+insert into employee (id, first_name, last_name, birthday, email) values (9, 'Jefferey', 'Bewsey', '6/16/1998', 'jbewsey8@geocities.jp');
+insert into employee (id, first_name, last_name, birthday, email) values (10, 'Herschel', 'Millom', '9/1/1988', 'hmillom9@seesaa.net');
+insert into employee (id, first_name, last_name, birthday, email) values (11, 'Marquita', 'Cheese', '1/23/1973', 'mcheesea@china.com.cn');
+insert into employee (id, first_name, last_name, birthday, email) values (12, 'Merrie', 'Guerre', '6/8/1998', 'mguerreb@opensource.org');
+insert into employee (id, first_name, last_name, birthday, email) values (13, 'Roger', 'Sill', '3/15/1966', 'rsillc@economist.com');
+insert into employee (id, first_name, last_name, birthday, email) values (14, 'Boyce', 'Livings', '3/27/1975', 'blivingsd@msn.com');
+insert into employee (id, first_name, last_name, birthday, email) values (15, 'Selie', 'Stenett', '10/30/1994', 'sstenette@jimdo.com');
+insert into employee (id, first_name, last_name, birthday, email) values (16, 'Mercedes', 'Sayers', '10/29/1965', 'msayersf@hostgator.com');
+insert into employee (id, first_name, last_name, birthday, email) values (17, 'Sumner', 'Whitehurst', '4/10/2019', 'swhitehurstg@utexas.edu');
+insert into employee (id, first_name, last_name, birthday, email) values (18, 'Kassandra', 'Fryd', '2/7/2022', 'kfrydh@ucla.edu');
+insert into employee (id, first_name, last_name, birthday, email) values (19, 'Kendra', 'Streeton', '8/19/1952', 'kstreetoni@japanpost.jp');
+insert into employee (id, first_name, last_name, birthday, email) values (20, 'Karon', 'Gatling', '5/4/1999', 'kgatlingj@mozilla.org');
+insert into employee (id, first_name, last_name, birthday, email) values (21, 'Norma', 'Goracci', '7/14/1960', 'ngoraccik@ebay.com');
+insert into employee (id, first_name, last_name, birthday, email) values (22, 'Mia', 'Juszczak', '3/14/1996', 'mjuszczakl@example.com');
+insert into employee (id, first_name, last_name, birthday, email) values (23, 'Gerek', 'Housegoe', '2/4/1965', 'ghousegoem@rambler.ru');
+insert into employee (id, first_name, last_name, birthday, email) values (24, 'Lyndsie', 'Sillett', '1/16/2002', 'lsillettn@about.com');
+insert into employee (id, first_name, last_name, birthday, email) values (25, 'Cody', 'Ellerman', '8/2/1962', 'cellermano@yahoo.co.jp');
+insert into employee (id, first_name, last_name, birthday, email) values (26, 'Lauritz', 'Wrey', '5/21/1974', 'lwreyp@facebook.com');
+insert into employee (id, first_name, last_name, birthday, email) values (27, 'Orlando', 'O''Henery', '9/2/2005', 'ooheneryq@altervista.org');
+insert into employee (id, first_name, last_name, birthday, email) values (28, 'Clemens', 'Ingleston', '1/13/2003', 'cinglestonr@altervista.org');
+insert into employee (id, first_name, last_name, birthday, email) values (29, 'Adora', 'Cockman', '4/1/1992', 'acockmans@earthlink.net');
+insert into employee (id, first_name, last_name, birthday, email) values (30, 'Casar', 'Harg', '12/15/2017', 'chargt@wikimedia.org');
+insert into employee (id, first_name, last_name, birthday, email) values (31, 'Evangeline', 'Hedney', '10/8/1965', 'ehedneyu@com.com');
+insert into employee (id, first_name, last_name, birthday, email) values (32, 'Ambrose', 'Tolworthie', '2/19/1959', 'atolworthiev@merriam-webster.com');
+insert into employee (id, first_name, last_name, birthday, email) values (33, 'Belinda', 'Aspin', '10/3/1994', 'baspinw@behance.net');
+insert into employee (id, first_name, last_name, birthday, email) values (34, 'Jandy', 'Ranscome', '6/17/1987', 'jranscomex@amazonaws.com');
+insert into employee (id, first_name, last_name, birthday, email) values (35, 'Osborne', 'Borkett', '3/19/1984', 'oborketty@posterous.com');
+insert into employee (id, first_name, last_name, birthday, email) values (36, 'Rodolphe', 'Lettson', '8/12/2005', 'rlettsonz@sphinn.com');
+insert into employee (id, first_name, last_name, birthday, email) values (37, 'Willa', 'Roarty', '3/24/2016', 'wroarty10@google.ca');
+insert into employee (id, first_name, last_name, birthday, email) values (38, 'Rogerio', 'Coronas', '11/10/2008', 'rcoronas11@upenn.edu');
+insert into employee (id, first_name, last_name, birthday, email) values (39, 'Camey', 'Boots', '12/2/1990', 'cboots12@howstuffworks.com');
+insert into employee (id, first_name, last_name, birthday, email) values (40, 'Jakie', 'Beavington', '10/5/1950', 'jbeavington13@yale.edu');
+insert into employee (id, first_name, last_name, birthday, email) values (41, 'Osmund', 'Morit', '8/21/1987', 'omorit14@gmpg.org');
+insert into employee (id, first_name, last_name, birthday, email) values (42, 'Sela', 'Sleite', '6/6/2001', 'ssleite15@nba.com');
+insert into employee (id, first_name, last_name, birthday, email) values (43, 'Kary', 'Taffe', '5/26/2007', 'ktaffe16@netlog.com');
+insert into employee (id, first_name, last_name, birthday, email) values (44, 'Bobbie', 'Jellings', '12/24/1961', 'bjellings17@mac.com');
+insert into employee (id, first_name, last_name, birthday, email) values (45, 'Jorgan', 'Banke', '9/8/1988', 'jbanke18@yahoo.com');
+insert into employee (id, first_name, last_name, birthday, email) values (46, 'Coleen', 'Fincken', '3/23/1996', 'cfincken19@amazon.co.uk');
+insert into employee (id, first_name, last_name, birthday, email) values (47, 'Evered', 'Cass', '7/8/1959', 'ecass1a@house.gov');
+insert into employee (id, first_name, last_name, birthday, email) values (48, 'Rozamond', 'Ewles', '5/9/1965', 'rewles1b@nytimes.com');
+insert into employee (id, first_name, last_name, birthday, email) values (49, 'Lorne', 'Willatt', '12/30/1953', 'lwillatt1c@gnu.org');
+insert into employee (id, first_name, last_name, birthday, email) values (50, 'Nollie', 'Kellart', '11/30/1973', 'nkellart1d@barnesandnoble.com');
+
+
+--  Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
+--
+UPDATE employee
+SET  first_name = 'RIDVAN',
+     last_name = 'YILDIZ',
+    email = 'ryildiz@yildiz.com'
+WHERE id = 5
+RETURNING * ;
+
+--
+
+UPDATE employee
+SET  last_name = 'YILDIZ',
+WHERE id = 12
+RETURNING * ;
+
+--
+UPDATE employee
+SET  email = 'rdvan@yildiz.com',
+WHERE id = 20
+RETURNING * ;
+
+--
+UPDATE employee
+SET  first_name = 'YILDIZ',
+     birthday = '1990-01-01',
+WHERE id = 40
+RETURNING * ;
+
+--
+UPDATE employee
+SET  first_name = 'RIDVAN',
+     last_name = 'YILDIZ',
+     birthday = '1990-01-01',
+     email = 'yildiz@ridvan.com',
+     
+WHERE id = 22
+RETURNING * ;
+
+--
+-- Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+DELETE FROM employee
+WHERE name LIKE '%Y'
+RETURNING *;
+
+--
+
+DELETE FROM employee
+WHERE email ILIKE '%x%'
+RETURNING *;
+
+--
+
+DELETE FROM employee
+WHERE id BETWEEN 37 AND 40
+RETURNING *;
+
+--
+
+DELETE FROM employee
+WHERE id = 12
+RETURNING *;
+
+--
+
+DELETE FROM employee
+WHERE birthday > '01-01-1999'
+returning *;
+
+--
+
+Display final state of the employee table
+SELECT * FROM employee;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
